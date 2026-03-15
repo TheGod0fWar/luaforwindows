@@ -7,11 +7,11 @@ Lua for Windows (LfW) combines Lua binaries, Lua libraries with a Lua-capable ed
 
 ## Download ##
 
-Download Lua For Windows installer from [GitHub](http://github.com/rjpcomputing/luaforwindows/releases)
+Download Lua For Windows installer from [GitHub](https://github.com/rjpcomputing/luaforwindows/releases)
 
 ## Install Notes ##
 
-Lua for Windows installs Lua language, SciTE based Lua IDE and Lua modules to the directory of you choice at install time. Lua for Windows and it's modules all depend on the MSVC++ 2005 runtime library. Lua for Windows install will automatically download this runtime and install it for you if you don't have runtime installed on your computer. The runtime is contained in the file [vcredist\_x86.exe](http://github.com/rjpcomputing/luaforwindows/releases/download/vc-runtime/vcredist_x86.4053.exe), if you don't want the runtime to download during installation time (for offline instalation), just place the [vcredist\_86.exe](http://github.com/rjpcomputing/luaforwindows/releases/download/vc-runtime/vcredist_x86.4053.exe) in same directory as Lua for Windows install exe.
+Lua for Windows installs Lua language, SciTE based Lua IDE and Lua modules to the directory of you choice at install time. Lua for Windows and it's modules all depend on the MSVC++ 2005 runtime library. Lua for Windows install will automatically download this runtime and install it for you if you don't have runtime installed on your computer. The runtime is contained in the file [vcredist\_x86.exe](https://github.com/rjpcomputing/luaforwindows/releases/download/vc-runtime/vcredist_x86.4053.exe), if you don't want the runtime to download during installation time (for offline instalation), just place the [vcredist\_86.exe](https://github.com/rjpcomputing/luaforwindows/releases/download/vc-runtime/vcredist_x86.4053.exe) in same directory as Lua for Windows install exe.
 
 
 ## LfW Components ##
@@ -30,56 +30,56 @@ C header files/libraries/etc. for building C module
 ## Libraries included ##
 |**Library**|**Version**|**Description**|
 |:----------|:----------|:--------------|
-|[Alien](http://alien.luaforge.net/)|0.5.0|Provides access to functions in an unknown or new .dll.|
-|[IUP](http://www.tecgraf.puc-rio.br/iup/)|3.5.0|Light Portable Graphical User Interface library.|
-|[CD](http://www.tecgraf.puc-rio.br/cd/)|5.4.1|Canvas Draw: A platform-independent graphic library.|
-|[IM](http://www.tecgraf.puc-rio.br/im/)|3.6.3|A toolkit for Digital Imaging.|
+|[Alien](https://github.com/mascarenhas/alien)|0.5.0|Provides access to functions in an unknown or new .dll.|
+|[IUP](https://www.tecgraf.puc-rio.br/iup/)|3.5.0|Light Portable Graphical User Interface library.|
+|[CD](https://www.tecgraf.puc-rio.br/cd/)|5.4.1|Canvas Draw: A platform-independent graphic library.|
+|[IM](https://www.tecgraf.puc-rio.br/im/)|3.6.3|A toolkit for Digital Imaging.|
 |Ex|Jan 07|Adds environment, file system, I/O (Locking and pipes), and process control.|
-|[LPeg](http://www.inf.puc-rio.br/~roberto/lpeg/lpeg.html)|0.9|Pattern-matching library based on Parsing Expression Grammars (PEGs).|
-|[Lua-GD](http://lua-gd.luaforge.net)|2.9.33r2|Image manipulation library based on Thomas Boutell’s GD library.|
-|[LuaCOM](http://www.tecgraf.puc-rio.br/~rcerq/luacom/)|1.4|Enable use & implementation of Microsoft’s Component Object Model.|
-|[LuaCURL](http://luacurl.luaforge.net/)|1.0|Interface to Internet browsing capabilities based on the cURL library.|
-|[Date](http://luaforge.net/projects/date/)|2 |Date and Time library for Lua.|
-|[LuaDoc](http://luadoc.luaforge.net/)|3.01|Documentation tool for Lua source code.|
-|[LuaExpat](http://www.keplerproject.org/luaexpat/)|1.1.0|Lua interface to XML Expat parsing library.|
-|[LuaFileSystem](http://keplerproject.github.com/luafilesystem/)|1.4.2|Access the directory structure and file attributes.|
-|[LuaLogging](http://www.keplerproject.org/lualogging/)|1.2.0|Logging features in Lua, based on log4j.|
-|[LuaProfiler](http://luaprofiler.luaforge.net/manual.html)|2.0.1|Time profiler designed to find bottlenecks in Lua programs.|
-|[LuaSocket](http://www.tecgraf.puc-rio.br/~diego/professional/luasocket/)|2.0.2|Lua interface to support HTTP,FTP,SMTP, MIME, URL & LTN12.|
-|[LuaSQL](http://www.keplerproject.org/luasql/)|2.1.1|Lua interface for PostgreSQL, ODBC, MySQL, SQLite, Oracle, and ADO dbms.|
+|[LPeg](https://www.inf.puc-rio.br/~roberto/lpeg/lpeg.html)|0.9|Pattern-matching library based on Parsing Expression Grammars (PEGs).|
+|[Lua-GD](https://github.com/ittner/lua-gd)|2.9.33r2|Image manipulation library based on Thomas Boutell’s GD library.|
+|[LuaCOM](https://web.tecgraf.puc-rio.br/~rcerq/luacom/)|1.4|Enable use & implementation of Microsoft’s Component Object Model.|
+|[LuaCURL](https://github.com/Lua-cURL/Lua-cURLv3)|1.0|Interface to Internet browsing capabilities based on the cURL library.|
+|[Date](https://github.com/Tieske/date)|2 |Date and Time library for Lua.|
+|[LuaDoc](https://github.com/lunarmodules/luadoc)|3.01|Documentation tool for Lua source code.|
+|[LuaExpat](https://github.com/lunarmodules/luaexpat)|1.1.0|Lua interface to XML Expat parsing library.|
+|[LuaFileSystem](https://github.com/lunarmodules/luafilesystem)|1.4.2|Access the directory structure and file attributes.|
+|[LuaLogging](https://github.com/lunarmodules/lualogging)|1.2.0|Logging features in Lua, based on log4j.|
+|[LuaProfiler](https://github.com/lunarmodules/luaprofiler)|2.0.1|Time profiler designed to find bottlenecks in Lua programs.|
+|[LuaSocket](https://github.com/lunarmodules/luasocket)|2.0.2|Lua interface to support HTTP,FTP,SMTP, MIME, URL & LTN12.|
+|[LuaSQL](https://github.com/lunarmodules/luasql)|2.1.1|Lua interface for PostgreSQL, ODBC, MySQL, SQLite, Oracle, and ADO dbms.|
 |[LuaUnit](https://github.com/luaforge/luaunit)|2.0|Testing framework for Lua.|
-|[LuaZip](http://www.keplerproject.org/luazip/)|1.2.3|Read files from zip files.|
-|[stdlib](http://luaforge.net/projects/stdlib/)|25|Library of modules for common programming tasks, including list, table and functional operations, regexps, objects, pretty-printing and getopt.|
-|[lrexlib](http://math2.org/luasearch/rex.html#contact)|2.2|Regular expression library for Lua.|
-|[MD5](http://www.keplerproject.org/md5/)|1.1.2|Basic cryptographic facilities for Lua.|
-|[Copas](http://www.keplerproject.org/copas/)|1.1.5|Dispatcher based on coroutines that can be used by TCP/IP servers.|
-|[Coxpcall](http://coxpcall.luaforge.net/)|1.13|Encapsulates the protected calls with a coroutine based loop, so errors can be dealed without the usual pcall/xpcall issues with coroutines.|
-|[Rings](http://www.keplerproject.org/rings/)|1.2.2|Provides a way to create new Lua states from within Lua. It also offers a simple way to communicate between the creator (http://loop.luaforge.net/) and the created (slave) states.|
-|[LOOP](http://loop.luaforge.net/)|2.3 Beta|LOOP stands for Lua Object-Oriented Programming and is a set of packages for supporting different models of object-oriented programming in the Lua language.|
-|[LuaTask](http://luatask.luaforge.net/)|1.6.4|Implements a concurrent and independent Lua execution environment model.|
-|[LuaInterface](http://code.google.com/p/luainterface/)|1.5.3|	Integration between the Lua language and Microsoft .NET platform's Common Language Runtime (CLR).|
-|[wxLua](http://wxlua.sourceforge.net/)|2.8.10| Lua binding to the wxWidgets library.|
-|[lpack](http://www.tecgraf.puc-rio.br/~lhf/ftp/lua/#lpack)|29 Jun 2007 19:27:20|Lua library for packing and unpacking binary data.|
-|[VStruct](http://www.funkyhorror.net/toxicfrog/projects/vstruct/)|1.0.2|Provides functions for manipulating binary data.|
-|[LuaBitOps](http://bitop.luajit.org/)|1.0.1| Lua BitOp is a C extension module for Lua 5.1 which adds bitwise operations on numbers.|
-|[LuaXML](http://viremo.eludi.net/LuaXML/)|1.3|A module that maps between Lua and XML without much ado.|
-|[Lanes](http://luaforge.net/projects/lanes/)|2.0.4|Provides the possibility to run multiple Lua states in parallel.|
-|[MetaLua](http://metalua.luaforge.net/)|0.5-rc1|A complete macro system with full compatibility with Lua 5.1 sources and bytecode: clean, elegant semantics and syntax, amazing expressive power, good performances, near-universal portability.|
-|[LuaGL](http://luagl.wikidot.com/)|1.3|Provides access to all of the OpenGL functionality from Lua 5.x .|
-|[Penlight](http://stevedonovan.github.com/Penlight/)|1.3.2|Common lua code patterns for tables, arrays, strings, paths and directories, data, and functional programming.|
-|[lbase64](http://www.tecgraf.puc-rio.br/~lhf/ftp/lua/)|for Lua 5.1|A base64 library for Lua.|
-|[gzio](http://github.com/jmaygarden/gzio)|0.9.0|The Lua gzip file I/O module emulates the standard I/O module, but operates on compressed gzip format files.|
-|[LuaRS232](http://github.com/ynezz/librs232)|1.0.0| RS232 serial communications library|
-|[LeMock](http://lemock.luaforge.net/README.html)|0.6|  Mock creation module intended for use together with a unit test framework such as lunit or lunity.|
-|[LuaRocks](http://luarocks.org)|2.0.2|  A deployment and management system for Lua modules.|
-|[Oil](http://oil.luaforge.net)|0.4-beta|  It is a simple, efficient and flexible object request broker written in the Lua language.|
-|[LuaJSON](http://github.com/harningt/luajson)|1.2.2| JSON parser/encoder for Lua Parses JSON using LPEG for speed and flexibility. Depending on parser/encoder options, various values are preserved as best as possible.|
+|[LuaZip](https://github.com/lunarmodules/luazip)|1.2.3|Read files from zip files.|
+|[stdlib](https://github.com/lua-stdlib/lua-stdlib)|25|Library of modules for common programming tasks, including list, table and functional operations, regexps, objects, pretty-printing and getopt.|
+|[lrexlib](https://github.com/rrthomas/lrexlib)|2.2|Regular expression library for Lua.|
+|[MD5](https://github.com/lunarmodules/md5)|1.1.2|Basic cryptographic facilities for Lua.|
+|[Copas](https://github.com/lunarmodules/copas)|1.1.5|Dispatcher based on coroutines that can be used by TCP/IP servers.|
+|[Coxpcall](https://github.com/keplerproject/coxpcall)|1.13|Encapsulates the protected calls with a coroutine based loop, so errors can be dealed without the usual pcall/xpcall issues with coroutines.|
+|[Rings](https://github.com/keplerproject/rings)|1.2.2|Provides a way to create new Lua states from within Lua. It also offers a simple way to communicate between the creator ([LOOP](https://github.com/renatomaia/loop)) and the created (slave) states.|
+|[LOOP](https://github.com/renatomaia/loop)|2.3 Beta|LOOP stands for Lua Object-Oriented Programming and is a set of packages for supporting different models of object-oriented programming in the Lua language.|
+|[LuaTask](https://github.com/LuaDist/luatask)|1.6.4|Implements a concurrent and independent Lua execution environment model.|
+|[LuaInterface](https://github.com/LuaDist/luainterface)|1.5.3|	Integration between the Lua language and Microsoft .NET platform's Common Language Runtime (CLR).|
+|[wxLua](https://github.com/pkulchenko/wxlua)|2.8.10| Lua binding to the wxWidgets library.|
+|[lpack](https://web.tecgraf.puc-rio.br/~lhf/ftp/lua/#lpack)|29 Jun 2007 19:27:20|Lua library for packing and unpacking binary data.|
+|[VStruct](https://github.com/ToxicFrog/vstruct)|1.0.2|Provides functions for manipulating binary data.|
+|[LuaBitOps](https://bitop.luajit.org/)|1.0.1| Lua BitOp is a C extension module for Lua 5.1 which adds bitwise operations on numbers.|
+|[LuaXML](https://github.com/LuaDist/luaxml)|1.3|A module that maps between Lua and XML without much ado.|
+|[Lanes](https://github.com/LuaLanes/lanes)|2.0.4|Provides the possibility to run multiple Lua states in parallel.|
+|[MetaLua](https://github.com/fab13n/metalua)|0.5-rc1|A complete macro system with full compatibility with Lua 5.1 sources and bytecode: clean, elegant semantics and syntax, amazing expressive power, good performances, near-universal portability.|
+|[LuaGL](https://luagl.wikidot.com/)|1.3|Provides access to all of the OpenGL functionality from Lua 5.x .|
+|[Penlight](https://github.com/lunarmodules/Penlight)|1.3.2|Common lua code patterns for tables, arrays, strings, paths and directories, data, and functional programming.|
+|[lbase64](https://web.tecgraf.puc-rio.br/~lhf/ftp/lua/)|for Lua 5.1|A base64 library for Lua.|
+|[gzio](https://github.com/jmaygarden/gzio)|0.9.0|The Lua gzip file I/O module emulates the standard I/O module, but operates on compressed gzip format files.|
+|[LuaRS232](https://github.com/ynezz/librs232)|1.0.0| RS232 serial communications library|
+|[LeMock](https://github.com/LuaDist/lemock)|0.6|  Mock creation module intended for use together with a unit test framework such as lunit or lunity.|
+|[LuaRocks](https://luarocks.org)|2.0.2|  A deployment and management system for Lua modules.|
+|[Oil](https://github.com/renatomaia/oil)|0.4-beta|  It is a simple, efficient and flexible object request broker written in the Lua language.|
+|[LuaJSON](https://github.com/harningt/luajson)|1.2.2| JSON parser/encoder for Lua Parses JSON using LPEG for speed and flexibility. Depending on parser/encoder options, various values are preserved as best as possible.|
 |[SubLua](https://sourceforge.net/projects/subcpp/)|1.8.10-35352|  Subversion binding.|
 |[30Log](https://github.com/Yonaba/30log)|1.0.0|  30 lines library for object orientation in Lua.|
-|[Moses](http://yonaba.github.io/Moses)|1.4.0|  Utility library for functional programming in Lua.|
-|[Binary-Heaps](http://yonaba.github.com/Binary-Heaps)|1.5.1|  Implementation of binary heaps data structure in pure Lua.|
-|[strictness](http://yonaba.github.io/strictness)|0.2.0|  Tracks accesses and assignments of undefined variables in Lua.|
-|[delaunay](http://yonaba.github.io/delaunay/)|0.1.0|  Delaunay triangulation for convex polygon.|
+|[Moses](https://yonaba.github.io/Moses)|1.4.0|  Utility library for functional programming in Lua.|
+|[Binary-Heaps](https://github.com/Yonaba/Binary-Heaps)|1.5.1|  Implementation of binary heaps data structure in pure Lua.|
+|[strictness](https://yonaba.github.io/strictness)|0.2.0|  Tracks accesses and assignments of undefined variables in Lua.|
+|[delaunay](https://yonaba.github.io/delaunay/)|0.1.0|  Delaunay triangulation for convex polygon.|
 
 ## History ##
 

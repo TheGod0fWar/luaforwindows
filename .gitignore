@@ -1,0 +1,17 @@
+# Inno Setup output
+Output/
+
+# Lua bytecode
+*.luac
+
+# Editor/IDE files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# OS files
+Thumbs.db
+Desktop.ini
+.DS_Store
