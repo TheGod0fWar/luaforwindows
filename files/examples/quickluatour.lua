@@ -52,7 +52,7 @@ print(type(d))
 -- Variable names consist of letters, digits and underscores.
 -- They cannot start with a digit.
 
-one_two_3 = 123 -- is valid varable name
+one_two_3 = 123 -- is valid variable name
 
 -- 1_two_3 is not a valid variable name.
 
